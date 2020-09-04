@@ -13,4 +13,4 @@ for i in range(1,4):
   print(f"Grade point for course {i} is: {gradepoint}")
 
 gpa  = (gradepointList[0]*creditpointList[0] + gradepointList[1]*creditpointList[1] + gradepointList[2]*creditpointList[2]) / (creditpointList[0] + creditpointList[1]+ creditpointList[2])
-print("Your GPA is: ", gpa)
+print("Your GPA is:", gpa)
