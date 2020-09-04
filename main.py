@@ -6,7 +6,7 @@ for i in range(1,4):
   credit = float(input(f"Enter your course {i} credit: "))
   creditpointList.append(credit)
   for grade in grades:
-    if grade[0] == lettergrade: 
+    if grade[0] == lettergrade.upper(): 
       gradepoint = grade[1]
       gradepointList.append(gradepoint)
 
